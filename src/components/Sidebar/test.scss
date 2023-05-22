@@ -1,0 +1,13 @@
+g{
+    color:#e83e8c;
+    fill:none;
+    overflow: hidden;
+    stroke-dasharray: 2400;
+    stroke-dashoffset: 2400;
+    animation: sign 4s ease infinite;
+}
+@keyframes sign{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
